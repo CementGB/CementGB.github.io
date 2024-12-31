@@ -64,7 +64,7 @@ body
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(.23,.7,.23,.71);
     font-size: 2rem;
-    box-shadow: 5px 10px black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     margin: 2rem;
 }
 
@@ -84,30 +84,9 @@ body
     width: 44rem;
 }
 
-.hoverButtonAnimated.docsButton
-{
-    height: 2rem;
-    width: 10rem;
-    background-color: var(--darkgrey);
-
-    font-size: 1rem;
-    margin-block: 1.5rem;
-
-    color: white;
-    background-color: rgb(44, 44, 44);
-}
-
-.hoverButtonAnimated.docsButton:hover
-{
-    transform: scale(1.2);
-    box-shadow: 10px 15px black;
-    cursor: pointer;
-}
-
 .hoverButtonAnimated:hover
 {
     transform: scale(1.2);
-    box-shadow: 15px 30px black;
     cursor: pointer;
 }
 
