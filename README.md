@@ -9,7 +9,7 @@ This is the repository hosting the website for the Cement modding library for Ga
 
 - A machine that can run Bash (Windows compatibility pending)
 - [Git](https://git-scm.com/)
-- [.NET 8 SDK and Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET 9 SDK and Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 
 #### Step-by-Step
 
