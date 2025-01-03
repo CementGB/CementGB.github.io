@@ -4,10 +4,12 @@ This is the repository hosting the website for the Cement modding library for Ga
 ## Contribute
 
 ### Building from source
+
 #### Requirements
+
 - A machine that can run Bash (Windows compatibility pending)
-- Git (https://git-scm.com/)
-- .NET 8 SDK and Runtime (https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [Git](https://git-scm.com/)
+- [.NET 8 SDK and Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 #### Step-by-Step
 
@@ -16,7 +18,7 @@ This is the repository hosting the website for the Cement modding library for Ga
 3. **Run the build script in `scripts/`.** It should handle the installing of DocFX and the building and packing of both the homepage and the docs automatically for then deploying elsewhere in raw HTML.
 
 ### Adding guides
-Simply open `pages/docs/md` and add a Markdown file with the title of the page as the filename but in lowercase and with no spaces (i.e. `Getting Started` becomes `getting-started.md`). You can then make your changes. When you're done, simply commit, push and build using the steps from above.
+Simply open `pages/docs/guides` and add a Markdown file with the title of the page as the filename but in lowercase and with no spaces (i.e. `Getting Started` becomes `getting-started.md`). Then, add the page to `toc.yml`. You can then make your changes. When you're done, simply commit, push and build using the steps from above.
 
 ### Updating the API reference
-Its as simple as building or downloading the [newest Cement release](https://github.com/HueSamai/CementSource/releases/latest)'s `CementDocs.xml` file, placing it in `pages/docs/src`, and building the website via `scripts/build.sh`. API summaries are generated from the XML found in the source.
+Its as simple as building or downloading the [newest Cement release](https://github.com/HueSamai/CementSource/releases/latest)'s `CementGB.dll` and `CementGB.dll` files, placing them in `pages/docs/src`, and building the website via `scripts/build.sh`. API summaries are generated from the XML found in the source.

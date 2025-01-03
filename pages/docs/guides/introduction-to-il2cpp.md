@@ -14,6 +14,7 @@ Thanks to MelonLoader and its libraries, however, its still possible to modify t
  concepts a beginner may not fully understand or require. To get straight into making your first mod, jump to [Getting Started](getting-started.md).
 
 ### Native vs Managed Types
+
 > [!TODO]
 > Explain difference between Il2CppSystem.Type and System.Type. . .
 
